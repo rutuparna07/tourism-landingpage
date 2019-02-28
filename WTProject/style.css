@@ -1,0 +1,339 @@
+body{ 
+    width: 100%;
+    height: 100%;       
+    margin: 0px;
+    background-color:#F2F3F4;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height:650px;
+    background-image: url(images/home.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+#nav{
+    position: absolute; 
+    width:100%;
+    height: 50px;
+}
+.dropbtn{
+    background-color: transparent;
+    margin:12px;
+    margin-top: 15px;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+    margin-right: 425px;
+    padding: inherit;
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+   border: 0.5px solid white;
+   background-color:rgba(255, 255, 255, 0.4);    
+}
+#logo{
+    width: 270px;
+    height: 205px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.logo_link:hover{
+   background-color:transparent; 
+}
+#host_link{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    float:right;
+    margin:12px;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 2px;
+}
+#host_link:visited{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+#host_link:hover{
+    background-color: rgba('0, 0, 0, 0.3');
+}
+.nav_links{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin:12px;
+    margin-top: 15px;
+    padding: 8px;
+    
+}
+#welcome_text_div{
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    top: 50%;
+    margin-top: -150px;
+    left:50%;
+    margin-left: -400px;
+}
+#welcome_text{
+    color: beige;
+    font-family: My font;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 60px;
+}
+#welcome_under_text{
+    background-color:  rgba(0,0,0,0.2);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -50px;
+}
+#how_it_works:link{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 2px; 
+     background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top:168px;
+}
+#how_it_works:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#how_it_works:visited{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+#headtext{
+    font-family:courier new;
+    font-size: 280%;
+    text-align: center;
+}
+#text{
+    border: 2px solid black;
+    padding:10px;
+    border-radius:30px;
+    text-decoration: none;
+    color: black;
+    font-family: georgia;
+    font-size: 12px;
+    margin-left:45%;
+    }
+a:hover{
+   background-color:darkgrey; 
+}
+p{
+    text-align: center;
+}
+a{
+  top: 50%;
+}
+#Map{
+    float: left;
+}
+#Health{
+    float: right;
+}
+#Food {
+    float:right;
+}
+#Go{
+    float: left;
+}
+#Map:hover{
+   position: relative;
+    top: 25px;
+    left: 35px;
+    width: -800px;
+    height: auto;
+    display: block;
+    z-index: -999;
+    background-color: transparent;
+}
+#Health:hover{
+   position: relative;
+    top: 25px;
+    right: 35px;
+    width: -800px;
+    height: auto;
+    display: block;
+    z-index: -999;
+    background-color: transparent;
+}
+#Food:hover{
+   position: relative;
+    top: 25px;
+    right: 35px;
+    width: -800px;
+    height: auto;
+    display: block;
+    z-index: -999;
+    background-color: transparent;
+}
+#Go:hover{
+   position: relative;
+    top: 25px;
+    left: 35px;
+    width: -800px;
+    height: auto;
+    display: block;
+    z-index: -999;
+    background-color: transparent;
+}
+#formdiv{
+    font-family: fontone;
+    position: absolute;
+    height: 550px;
+    width: 100%;
+    top:2800px;
+    color: black;
+    text-align: justify;
+}
+#fill{
+    font-size: 17px;
+    color: black;
+    margin-left: 500px;
+}
+input:focus{
+    outline:none;
+}
+input{
+    text-align: center;
+    font-family: fontone;
+    border-radius: 1000px;
+    height: 48px;
+    width: 300px;
+}
+textarea:focus{
+    outline: none;
+}
+textarea{
+    resize: none;
+    text-align: center;
+    font-family: fontone;
+    border-radius: 40px;
+}
+#submit{
+    margin-top: -30px;
+    margin-left: 199px;
+    width: 100px;
+}
+#username{
+    margin-left: 100px;
+}
+#email{
+    margin-left: 100px;
+}
+#feedback{
+    margin-left: 68px;
+}
+#reference{
+    color: black;
+    font-size: 40px;
+    font-family: myfont;
+    position: absolute;
+    top:2250px;
+    height:580px;
+    width:100%;
+}
+#book{
+    margin-left: 100px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+#buy{
+    margin-left: 200px;
+}
+#bookt{
+    font-family: cursive;
+    position: absolute;
+    top:50px;
+    margin-left: 550px;
+}
+#books{
+    font-size: 100px;
+    position: absolute;
+    top:130px;
+    margin-left:570px;
+ }
+#descript{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 580px;
+    margin-top: 30px;
+    text-align: justify;
+}
+#bbuy:hover{
+    backface-visibility: hidden;
+    background-color: transparent;
+}
+footer{
+    background-color:#EAECEE;
+    color: black;
+    position: absolute;
+    top: 3300px;
+    width: 100%;
+    height: 650px;
+}
+.social{
+    margin-left: 50px;
+}
+.flogo{
+    margin-top: -100px;
+    float: right;
+}
+#fmail{
+    text-decoration: none;
+    color: black;
+}
+#fb:hover{
+    backface-visibility: hidden;
+    background-color: transparent;
+}
+#utube:hover{
+    backface-visibility: hidden;
+    background-color: transparent;
+}
+#Google:hover{
+    backface-visibility: hidden;
+    background-color: transparent;
+}
+#twitter:hover{
+    backface-visibility: hidden;
+    background-color: transparent;
+}
